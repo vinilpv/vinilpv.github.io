@@ -316,7 +316,7 @@ main {
 
 .sidebar {
   margin-bottom: 15px;
-  max-height: 257px;             /*CHANGE- SIDEBAR HEIGHT*/
+  max-height: 360px;             /*CHANGE- SIDEBAR HEIGHT*/
   overflow: hidden;
   transition: var(--transition-2);
    width: 335px;                 
@@ -1346,6 +1346,23 @@ textarea.form-input::-webkit-resizer { display: none; }
   .sidebar-info { gap: 25px; }
 
   .avatar-box { border-radius: 30px; }
+
+  .sidebar-info{
+    position: relative;
+  }
+  
+  .sidebar-info img{
+    width: 150px;
+    height: 150px;
+    position: absolute;
+    top: 50px;
+    left: 50px;
+  }
+
+  .imgcenter {  
+    display: block;
+    margin-left: auto;
+    margin-right: auto;}
 
   .avatar-box img { width: 120px; }
 
